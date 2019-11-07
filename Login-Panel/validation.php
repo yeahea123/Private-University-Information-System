@@ -1,8 +1,8 @@
 <?php
 	session_start();
 	 $con = mysqli_connect('localhost','root','');
-	 mysqli_select_db($con,'cse 327');
-	$mysqli = NEW MySQLi('localhost','root','','cse 327');	
+	 mysqli_select_db($con,'all_private_university');
+	$mysqli = NEW MySQLi('localhost','root','','all_private_university');	
 	
 	$email = $_POST['email'];
 	$password = $_POST['password'];
